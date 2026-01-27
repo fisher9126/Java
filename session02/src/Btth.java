@@ -4,7 +4,6 @@
     public class Btth {
         public static void main(String[] args) {
             Scanner sc = new Scanner(System.in);
-
             int n = Integer.parseInt(sc.nextLine());
             int totalFine = 0;
 
@@ -21,9 +20,9 @@
 
             int age = Integer.parseInt(sc.nextLine());
             int booksBorrowed = Integer.parseInt(sc.nextLine());
-            int isStudentPriority = Integer.parseInt(sc.nextLine());
+            int isPriority = Integer.parseInt(sc.nextLine());
 
-            String vipStatus = (age >= 18 && booksBorrowed >= 10) || isStudentPriority == 1
+            String vipStatus = (age >= 18 && booksBorrowed >= 10) || isPriority == 1
                     ? "Đủ tiêu chuẩn nâng cấp VIP"
                     : "Chưa đủ tiêu chuẩn";
 
